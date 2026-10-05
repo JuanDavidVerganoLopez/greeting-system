@@ -1,0 +1,8 @@
+We need to create a "Greeting System" with the following requirements model: Student -> Request greeting -> Ask for details.
+
+1. The student clicks on "Request greeting" (button).
+2. The system requests name, age, and time of day (AM or PM).
+3. The student enters the requested details.
+4. The system greets the student by their name and mentions their age.
+
+The technical constraints are the exclusive use of Java and JavaFX, and that it must be a desktop application, not a web application.
