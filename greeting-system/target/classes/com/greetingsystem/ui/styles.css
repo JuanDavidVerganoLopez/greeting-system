@@ -1,0 +1,29 @@
+.screen {
+    -fx-padding: 32;
+    -fx-background-color: #f4f6fb;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2937;
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #4b5563;
+}
+
+.greeting {
+    -fx-font-size: 18px;
+    -fx-text-fill: #111827;
+}
+
+.error {
+    -fx-text-fill: #b91c1c;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.greetingsystem.ui.GreetingController"
+      alignment="CENTER" spacing="16" styleClass="screen">
+    <Label text="Greeting" styleClass="title"/>
+    <Label fx:id="greetingLabel" wrapText="true" styleClass="greeting"/>
+    <HBox alignment="CENTER" spacing="12">
+        <Button text="Home" onAction="#onHome"/>
+        <Button text="Request another greeting" onAction="#onRequestAnother" defaultButton="true"/>
+    </HBox>
+</VBox>
